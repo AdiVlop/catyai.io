@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="iconC.png" alt="CatyAI Logo" width="120" />
+  <img src="public/iconC.png" alt="CatyAI Logo" width="120" />
 </p>
 
 <h1 align="center">CatyAI</h1>
