@@ -17,6 +17,29 @@
 
 ---
 
+## Live Platform (April 2026)
+
+<p align="center">
+  <img src="public/screenshot-landing.png" alt="CatyAI Landing" width="800" />
+</p>
+
+<p align="center">
+  <img src="public/screenshot-dashboard.png" alt="Dashboard Analytics" width="400" />
+  <img src="public/screenshot-insights.png" alt="AI Insights" width="400" />
+</p>
+
+<p align="center">
+  <img src="public/screenshot-geo.png" alt="GEO Observability - 9 AI Agents" width="600" />
+</p>
+
+**Production Stats:**
+- 1,737 Total Page Views
+- 1,057 Unique Visitors
+- 223 Conversations
+- 9 AI Agents Monitored (100% Visibility Score)
+
+---
+
 ## Overview
 
 CatyAI is an enterprise-grade AI platform that helps businesses automate customer engagement, capture leads, and increase revenue through intelligent conversations.
