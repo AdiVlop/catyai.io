@@ -2,6 +2,7 @@ export default {
   title: 'Caty.AI Docs',
   description: 'Documentation for Caty.AI - AI Chatbot Platform',
   base: '/catyai.io/',
+  srcExclude: ['**/README.md', '**/CONTRIBUTING.md'],
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }]
   ],

@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="public/iconC.png" alt="CatyAI Logo" width="120" />
+  <img src="https://raw.githubusercontent.com/AdiVlop/catyai.io/main/public/iconC.png" alt="CatyAI Logo" width="120" />
 </p>
 
 <h1 align="center">CatyAI</h1>
