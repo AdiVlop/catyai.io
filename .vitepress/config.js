@@ -1,6 +1,7 @@
 export default {
   title: 'Caty.AI Docs',
   description: 'Documentation for Caty.AI - AI Chatbot Platform',
+  base: '/catyai.io/',
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }]
   ],
