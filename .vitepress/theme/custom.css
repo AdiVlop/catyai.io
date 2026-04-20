@@ -1,0 +1,92 @@
+:root {
+  /* Brand color: #C48D32 (Gold/Bronze) */
+  --vp-c-brand-1: #C48D32;
+  --vp-c-brand-2: #D4A04A;
+  --vp-c-brand-3: #B07D28;
+  --vp-c-brand-soft: rgba(196, 141, 50, 0.14);
+
+  /* Button colors */
+  --vp-button-brand-border: transparent;
+  --vp-button-brand-text: #fff;
+  --vp-button-brand-bg: #C48D32;
+  --vp-button-brand-hover-border: transparent;
+  --vp-button-brand-hover-text: #fff;
+  --vp-button-brand-hover-bg: #D4A04A;
+  --vp-button-brand-active-border: transparent;
+  --vp-button-brand-active-text: #fff;
+  --vp-button-brand-active-bg: #B07D28;
+
+  /* Home hero */
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: linear-gradient(135deg, #C48D32 0%, #E8C068 50%, #C48D32 100%);
+  --vp-home-hero-image-background-image: linear-gradient(135deg, rgba(196, 141, 50, 0.3) 0%, rgba(232, 192, 104, 0.2) 100%);
+  --vp-home-hero-image-filter: blur(44px);
+}
+
+.dark {
+  --vp-c-brand-1: #D4A04A;
+  --vp-c-brand-2: #E8C068;
+  --vp-c-brand-3: #C48D32;
+  --vp-c-brand-soft: rgba(212, 160, 74, 0.16);
+
+  --vp-button-brand-bg: #D4A04A;
+  --vp-button-brand-hover-bg: #E8C068;
+  --vp-button-brand-active-bg: #C48D32;
+
+  --vp-home-hero-name-background: linear-gradient(135deg, #D4A04A 0%, #E8C068 50%, #D4A04A 100%);
+}
+
+/* Hero section enhancements */
+.VPHero .name {
+  font-weight: 800;
+}
+
+.VPHero .text {
+  font-size: 2.5rem;
+  line-height: 1.2;
+}
+
+.VPHero .tagline {
+  font-size: 1.25rem;
+  color: var(--vp-c-text-2);
+}
+
+/* Feature cards */
+.VPFeature {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.VPFeature:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+}
+
+.VPFeature .icon {
+  font-size: 2rem;
+}
+
+/* Sidebar active state */
+.VPSidebarItem.is-active > .item > .link > .text {
+  color: var(--vp-c-brand-1);
+}
+
+/* Custom badge for new features */
+.vp-doc .custom-block.tip {
+  border-color: var(--vp-c-brand-1);
+}
+
+/* Footer branding */
+.VPFooter .message {
+  color: var(--vp-c-brand-1);
+  font-weight: 600;
+}
+
+/* Code blocks */
+.vp-doc [class*='language-'] > button.copy {
+  background-color: var(--vp-c-brand-soft);
+}
+
+.vp-doc [class*='language-'] > button.copy:hover {
+  background-color: var(--vp-c-brand-1);
+  color: white;
+}

@@ -1,0 +1,20 @@
+{
+  "name": "catyai-docs",
+  "version": "1.0.0",
+  "description": "CatyAI Documentation - Revenue & Performance Partner",
+  "author": "PayAi-X FZE <contact@payai-x.com>",
+  "license": "AGPL-3.0",
+  "homepage": "https://docs.catyai.io",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AdiVlop/catyai.io"
+  },
+  "scripts": {
+    "dev": "vitepress dev",
+    "build": "vitepress build",
+    "preview": "vitepress preview"
+  },
+  "devDependencies": {
+    "vitepress": "^1.5.0"
+  }
+}
